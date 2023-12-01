@@ -18,6 +18,10 @@ export const Home = () => {
                 />
                 <meta property="og:title" content="Bike Me Now" />
                 <meta
+                    property="og:url"
+                    content="https://test-booking-app-vercel.vercel.app/"
+                />
+                <meta
                     property="og:description"
                     content="Descubre la libertad sobre dos ruedas con nuestro servicio de alquiler de bicicletas. Explora tu ciudad o destinos increíbles mientras reservas la bicicleta perfecta para cada aventura. ¡Siente el viento en tu rostro y pedalea hacia tus próximas experiencias inolvidables!"
                 />
