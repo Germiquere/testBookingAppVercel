@@ -7,7 +7,10 @@ export const Home = () => {
         <>
             <Helmet>
                 <title>Bike Me Now</title>
-                {/* <link rel="canonical" href="http://mysite.com/example" /> */}
+                <link
+                    rel="canonical"
+                    href="https://test-booking-app-vercel.vercel.app/"
+                />
 
                 <meta
                     property="og:image"
