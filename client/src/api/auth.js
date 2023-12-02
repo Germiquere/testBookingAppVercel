@@ -1,6 +1,6 @@
 export const login = async (user) => {
     try {
-        const res = await fetch(`http://localhost:8080/auth/login`, {
+        const res = await fetch(`http://54.227.169.64:8080/auth/login`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -32,7 +32,7 @@ export const register = async (user) => {
     console.log("estoy pro registrar");
 
     try {
-        const res = await fetch(`http://localhost:8080/auth/registrar`, {
+        const res = await fetch(`http://54.227.169.64:8080/auth/login`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
